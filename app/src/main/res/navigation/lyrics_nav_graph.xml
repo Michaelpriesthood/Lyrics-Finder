@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/news_nav_graph.xml"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.techmedia.lyricfinder.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <argument
+            android:name="lyrics"
+            android:defaultValue="@null"
+            app:argType="com.techmedia.lyricfinder.model.LyricsModel"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_homeFragment_to_savedLyricsFragment"
+            app:destination="@id/savedLyricsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/savedLyricsFragment"
+        android:name="com.techmedia.lyricfinder.ui.fragments.SavedLyricsFragment"
+        android:label="SavedLyricsFragment">
+        <action
+            android:id="@+id/action_savedLyricsFragment_to_viewLyricsFragment"
+            app:destination="@id/viewLyricsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewLyricsFragment"
+        android:name="com.techmedia.lyricfinder.ui.fragments.ViewLyricsFragment"
+        android:label="fragment_view_lyrics"
+        tools:layout="@layout/fragment_view_lyrics">
+
+    </fragment>
+</navigation>

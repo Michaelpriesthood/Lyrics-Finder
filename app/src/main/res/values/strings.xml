@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Lyrics Finder</string>
+    <string name="home">Home</string>
+    <string name="saved_lyrics">Saved Lyrics</string>
+    <string name="song_title">Song title…</string>
+    <string name="search_for_a_song_get_the_lyrics">Search for a Song, Get the lyrics</string>
+    <string name="get_song_lyrics">Get song lyrics</string>
+    <string name="you_don_t_have_any_saved_lyrics">You don\'t have any saved lyrics</string>
+    <string name="view_lyrics">View lyrics</string>
+    <string name="artist_name">Artist name…</string>
+    <string name="lyrics">Lyrics…</string>
+    <string name="some_text">Lorem Ipsum is simply dummy text of
+        the printing and typesetting industry. Lorem Ipsum has been
+        the industry\'s standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled
+        it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged.
+    </string>
+    <string name="icon">icon</string>
+    <string name="back_button">back button</string>
+    <string name="share_button">share button</string>
+
+</resources>
